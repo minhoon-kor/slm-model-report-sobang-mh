@@ -1,0 +1,14 @@
+{
+  "name": "opencode-openrouter-node",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "chat": "node src/chat.js",
+    "server": "node src/server.js",
+    "check": "node --check src/chat.js && node --check src/server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
