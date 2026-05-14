@@ -4,5 +4,7 @@ npm-debug.log*
 openrouter-proxy*.log
 __pycache__/
 build/
-dist/
+dist/*
+!dist/
+!dist/gui_calculator.exe
 *.pyc
